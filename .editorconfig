@@ -1,0 +1,20 @@
+# top-most EditorConfig file
+root = true
+
+# Default settings
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 4
+
+# Python-specific settings
+[*.py]
+charset = utf-8
+
+# Settings for Jupyter Notebook files
+[*.ipynb]
+charset = utf-8
+indent_style = space
+indent_size = 4
