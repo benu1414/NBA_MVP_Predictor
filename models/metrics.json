@@ -1,0 +1,737 @@
+{
+  "best_model": "ridge",
+  "features": [
+    "Age",
+    "G",
+    "GS",
+    "MP",
+    "FG",
+    "FGA",
+    "FG%",
+    "3P",
+    "3PA",
+    "3P%",
+    "2P",
+    "2PA",
+    "2P%",
+    "eFG%",
+    "FT",
+    "FTA",
+    "FT%",
+    "ORB",
+    "DRB",
+    "TRB",
+    "AST",
+    "STL",
+    "BLK",
+    "TOV",
+    "PF",
+    "PTS",
+    "Year",
+    "W",
+    "L",
+    "W/L%",
+    "GB",
+    "PS/G",
+    "PA/G",
+    "SRS",
+    "PER",
+    "TS%",
+    "3PAr",
+    "FTr",
+    "ORB%",
+    "DRB%",
+    "TRB%",
+    "AST%",
+    "STL%",
+    "BLK%",
+    "TOV%",
+    "USG%",
+    "OWS",
+    "DWS",
+    "WS",
+    "WS/48",
+    "OBPM",
+    "DBPM",
+    "BPM",
+    "VORP",
+    "Games_Missed",
+    "PTS_Rank",
+    "AST_Rank",
+    "TRB_Rank",
+    "STL_Rank",
+    "BLK_Rank",
+    "W_Rank",
+    "SRS_Rank",
+    "PTS_Pctile",
+    "AST_Pctile",
+    "TRB_Pctile",
+    "W_Pctile",
+    "SRS_Pctile",
+    "Team_Win_Share",
+    "Usage_Proxy",
+    "Scoring_Efficiency_Proxy",
+    "PER_Rank",
+    "BPM_Rank",
+    "VORP_Rank",
+    "WS_Rank",
+    "PER_Pctile",
+    "BPM_Pctile",
+    "VORP_Pctile",
+    "WS_Pctile"
+  ],
+  "models": {
+    "ridge": {
+      "yearly": {
+        "2008": {
+          "mse": 0.0028556559595678075,
+          "top_1_accuracy": 0.0,
+          "top_3_recall": 0.3333333333333333,
+          "top_5_average_precision": 0.6633333333333333,
+          "winner_predicted_rank": 12,
+          "spearman_rank": 0.9051358607532218
+        },
+        "2009": {
+          "mse": 0.002188541306970569,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.8583333333333334,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.6595615982736484
+        },
+        "2010": {
+          "mse": 0.00222238973604707,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.8433333333333334,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.6984143891972486
+        },
+        "2011": {
+          "mse": 0.0023646570060830803,
+          "top_1_accuracy": 0.0,
+          "top_3_recall": 1.0,
+          "top_5_average_precision": 0.8392857142857142,
+          "winner_predicted_rank": 2,
+          "spearman_rank": 0.7885006301806023
+        },
+        "2012": {
+          "mse": 0.003735836194012739,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 1.0,
+          "top_5_average_precision": 0.7352272727272727,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.6355535968479897
+        },
+        "2013": {
+          "mse": 0.0018134021488340967,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.8102564102564103,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.8195061354638202
+        },
+        "2014": {
+          "mse": 0.0020854692998602347,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.6976190476190476,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.8893601030011818
+        },
+        "2015": {
+          "mse": 0.0020521486862549805,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.8766666666666667,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.6681196580249266
+        },
+        "2016": {
+          "mse": 0.0018156825492092654,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.9666666666666666,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.6590171321756111
+        },
+        "2017": {
+          "mse": 0.0023304059010771402,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.925,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.7399004118536708
+        },
+        "2018": {
+          "mse": 0.002145323752320612,
+          "top_1_accuracy": 0.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.8083333333333333,
+          "winner_predicted_rank": 2,
+          "spearman_rank": 0.999953741649015
+        },
+        "2019": {
+          "mse": 0.002056865965084833,
+          "top_1_accuracy": 0.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.8583333333333334,
+          "winner_predicted_rank": 2,
+          "spearman_rank": 0.9798500327150422
+        },
+        "2020": {
+          "mse": 0.0019894814125636043,
+          "top_1_accuracy": 0.0,
+          "top_3_recall": 1.0,
+          "top_5_average_precision": 0.885,
+          "winner_predicted_rank": 2,
+          "spearman_rank": 0.9797320586108617
+        },
+        "2021": {
+          "mse": 0.0019334135367016748,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.7477124183006536,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.9938942787107561
+        },
+        "2022": {
+          "mse": 0.0016562484565015028,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 1.0,
+          "top_5_average_precision": 0.8625,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.9506363760999821
+        },
+        "2023": {
+          "mse": 0.002177182602468942,
+          "top_1_accuracy": 0.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.7087301587301587,
+          "winner_predicted_rank": 3,
+          "spearman_rank": 0.961087623063194
+        },
+        "2024": {
+          "mse": 0.001637491316829063,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.9428571428571428,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.9999933315050543
+        },
+        "2025": {
+          "mse": 0.0016104240280582838,
+          "top_1_accuracy": 0.0,
+          "top_3_recall": 1.0,
+          "top_5_average_precision": 0.7944827586206896,
+          "winner_predicted_rank": 2,
+          "spearman_rank": 0.9615635353141884
+        },
+        "2026": {
+          "mse": 0.001606859885710802,
+          "top_1_accuracy": 0.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.925,
+          "winner_predicted_rank": 2,
+          "spearman_rank": 0.9615226759352767
+        }
+      },
+      "summary": {
+        "mse": 0.002119867354955595,
+        "top_1_accuracy": 0.5789473684210527,
+        "top_3_recall": 0.7368421052631579,
+        "top_5_average_precision": 0.8288774170208995,
+        "average_winner_predicted_rank": 2.0
+      }
+    },
+    "random_forest": {
+      "yearly": {
+        "2008": {
+          "mse": 0.0021816234181064142,
+          "top_1_accuracy": 0.0,
+          "top_3_recall": 0.3333333333333333,
+          "top_5_average_precision": 0.8111111111111111,
+          "winner_predicted_rank": 9,
+          "spearman_rank": 0.8777475444323182
+        },
+        "2009": {
+          "mse": 0.0013025026651878949,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.8909090909090909,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.6138788140107033
+        },
+        "2010": {
+          "mse": 0.0014259037079817898,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.65,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.6481222112043289
+        },
+        "2011": {
+          "mse": 0.0020845020203385492,
+          "top_1_accuracy": 0.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.6111012782694198,
+          "winner_predicted_rank": 2,
+          "spearman_rank": 0.667366390861673
+        },
+        "2012": {
+          "mse": 0.0013991717772209188,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.560044669805626,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.6029424343794051
+        },
+        "2013": {
+          "mse": 0.0004890131684886416,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.9666666666666666,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.7680426256603188
+        },
+        "2014": {
+          "mse": 0.0009486024898455891,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.6426373626373627,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.8871911689857748
+        },
+        "2015": {
+          "mse": 0.0008124394290069318,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.8766666666666667,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.6684134738960821
+        },
+        "2016": {
+          "mse": 0.0010204677538688952,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 1.0,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.6363255530613438
+        },
+        "2017": {
+          "mse": 0.0014611293556691376,
+          "top_1_accuracy": 0.0,
+          "top_3_recall": 1.0,
+          "top_5_average_precision": 0.8266666666666668,
+          "winner_predicted_rank": 3,
+          "spearman_rank": 0.7600965304091958
+        },
+        "2018": {
+          "mse": 0.0005614260243394852,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.9666666666666666,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.9999660873703652
+        },
+        "2019": {
+          "mse": 0.0003229166165949396,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.9266666666666667,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.9798608336159502
+        },
+        "2020": {
+          "mse": 0.0003995827878514975,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 1.0,
+          "top_5_average_precision": 0.8583333333333334,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.9790181480965089
+        },
+        "2021": {
+          "mse": 0.0010202543611245725,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.8555555555555555,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.9705825084752996
+        },
+        "2022": {
+          "mse": 0.0005082435010391514,
+          "top_1_accuracy": 0.0,
+          "top_3_recall": 1.0,
+          "top_5_average_precision": 0.7958333333333333,
+          "winner_predicted_rank": 3,
+          "spearman_rank": 0.9426613943754399
+        },
+        "2023": {
+          "mse": 0.0007012404005505684,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.8261904761904763,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.9605710392752347
+        },
+        "2024": {
+          "mse": 0.0007250355501900334,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.9428571428571428,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.9999907025791622
+        },
+        "2025": {
+          "mse": 0.00013253239424136239,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 1.0,
+          "top_5_average_precision": 0.8018050541516246,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.9604214408642215
+        },
+        "2026": {
+          "mse": 0.00037429670572542643,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.9111111111111111,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.9808192875783214
+        }
+      },
+      "summary": {
+        "mse": 0.0009405728488090421,
+        "top_1_accuracy": 0.7894736842105263,
+        "top_3_recall": 0.7192982456140351,
+        "top_5_average_precision": 0.8274117290841327,
+        "average_winner_predicted_rank": 1.6842105263157894
+      }
+    },
+    "gradient_boosting": {
+      "yearly": {
+        "2008": {
+          "mse": 0.0032970689977931894,
+          "top_1_accuracy": 0.0,
+          "top_3_recall": 0.3333333333333333,
+          "top_5_average_precision": 0.5597979797979798,
+          "winner_predicted_rank": 9,
+          "spearman_rank": 0.8803512774548681
+        },
+        "2009": {
+          "mse": 0.000891596044862047,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.925,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.6365881797286672
+        },
+        "2010": {
+          "mse": 0.0011908625460549402,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.7544444444444445,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.6973197335888688
+        },
+        "2011": {
+          "mse": 0.0019660637959517087,
+          "top_1_accuracy": 0.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.731111111111111,
+          "winner_predicted_rank": 2,
+          "spearman_rank": 0.7876833900922536
+        },
+        "2012": {
+          "mse": 0.0012528674599434546,
+          "top_1_accuracy": 0.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.6466120218579234,
+          "winner_predicted_rank": 3,
+          "spearman_rank": 0.5917063824108794
+        },
+        "2013": {
+          "mse": 0.0004985397496455952,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.925,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.8012048143404211
+        },
+        "2014": {
+          "mse": 0.0007211601317681919,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.6722222222222223,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.8875090578928754
+        },
+        "2015": {
+          "mse": 0.0006864968200786021,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.8528571428571429,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.6452785975995162
+        },
+        "2016": {
+          "mse": 0.0010056672287595083,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 1.0,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.6584395505968028
+        },
+        "2017": {
+          "mse": 0.000899394353521247,
+          "top_1_accuracy": 0.0,
+          "top_3_recall": 1.0,
+          "top_5_average_precision": 0.9,
+          "winner_predicted_rank": 3,
+          "spearman_rank": 0.76100789288198
+        },
+        "2018": {
+          "mse": 0.0002756342263582164,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 1.0,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.9417727007903929
+        },
+        "2019": {
+          "mse": 0.00023214915020307745,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.876923076923077,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.9798633323318319
+        },
+        "2020": {
+          "mse": 0.0005166435063486892,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 1.0,
+          "top_5_average_precision": 0.8444444444444444,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.9184662637359075
+        },
+        "2021": {
+          "mse": 0.0008496015412366469,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.780952380952381,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.9649992703069017
+        },
+        "2022": {
+          "mse": 0.00044845264301611335,
+          "top_1_accuracy": 0.0,
+          "top_3_recall": 1.0,
+          "top_5_average_precision": 0.850909090909091,
+          "winner_predicted_rank": 3,
+          "spearman_rank": 0.9507702245239575
+        },
+        "2023": {
+          "mse": 0.00066845304019073,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.8083333333333333,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.9439100051420816
+        },
+        "2024": {
+          "mse": 0.0009539678109232115,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.9028571428571428,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.9999966657525271
+        },
+        "2025": {
+          "mse": 0.0002627430662698172,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 1.0,
+          "top_5_average_precision": 0.7735135135135136,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.9996441417908989
+        },
+        "2026": {
+          "mse": 0.00028423427489666545,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.925,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.9614929706726577
+        }
+      },
+      "summary": {
+        "mse": 0.0008895577046221922,
+        "top_1_accuracy": 0.7368421052631579,
+        "top_3_recall": 0.7192982456140351,
+        "top_5_average_precision": 0.8278935739591478,
+        "average_winner_predicted_rank": 1.7894736842105263
+      }
+    },
+    "two_stage_ridge": {
+      "yearly": {
+        "2008": {
+          "mse": 0.16471256171787654,
+          "top_1_accuracy": 0.0,
+          "top_3_recall": 0.0,
+          "top_5_average_precision": 0.32166666666666666,
+          "winner_predicted_rank": 12,
+          "spearman_rank": 0.8199222053771459
+        },
+        "2009": {
+          "mse": 0.0022237978812958766,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.8253968253968254,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.5901889156765256
+        },
+        "2010": {
+          "mse": 0.0019795921778470644,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.3333333333333333,
+          "top_5_average_precision": 0.6644444444444444,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.8253699812969119
+        },
+        "2011": {
+          "mse": 0.005035441649384455,
+          "top_1_accuracy": 0.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.5935897435897436,
+          "winner_predicted_rank": 2,
+          "spearman_rank": 0.7543767956313716
+        },
+        "2012": {
+          "mse": 0.0037656041585403866,
+          "top_1_accuracy": 0.0,
+          "top_3_recall": 0.0,
+          "top_5_average_precision": 0.008675029080236813,
+          "winner_predicted_rank": 455,
+          "spearman_rank": 0.45054484062308214
+        },
+        "2013": {
+          "mse": 0.0011527640771008866,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.9111111111111111,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.8128720119196006
+        },
+        "2014": {
+          "mse": 0.0022001598414776494,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.6513888888888889,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.9146100577117174
+        },
+        "2015": {
+          "mse": 0.0014713688999899853,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.7392857142857142,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.6140170322521359
+        },
+        "2016": {
+          "mse": 0.002135923638207154,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.3333333333333333,
+          "top_5_average_precision": 0.9428571428571428,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.6591723481845568
+        },
+        "2017": {
+          "mse": 0.018457267047123607,
+          "top_1_accuracy": 0.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.6595238095238095,
+          "winner_predicted_rank": 3,
+          "spearman_rank": 0.7605835730520842
+        },
+        "2018": {
+          "mse": 0.9224924568835445,
+          "top_1_accuracy": 0.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.6683333333333333,
+          "winner_predicted_rank": 2,
+          "spearman_rank": 0.9566921240013397
+        },
+        "2019": {
+          "mse": 0.0009079127337230397,
+          "top_1_accuracy": 0.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.7944444444444445,
+          "winner_predicted_rank": 2,
+          "spearman_rank": 0.979864138369213
+        },
+        "2020": {
+          "mse": 0.0011359561840460902,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 1.0,
+          "top_5_average_precision": 0.8433333333333334,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.9814641853135629
+        },
+        "2021": {
+          "mse": 0.0008972943746146184,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.3333333333333333,
+          "top_5_average_precision": 0.7861904761904762,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.9999651728724873
+        },
+        "2022": {
+          "mse": 0.0004171054661973574,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 1.0,
+          "top_5_average_precision": 0.9266666666666667,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.8945052783424038
+        },
+        "2023": {
+          "mse": 0.000525877582059007,
+          "top_1_accuracy": 0.0,
+          "top_3_recall": 1.0,
+          "top_5_average_precision": 0.7362403100775194,
+          "winner_predicted_rank": 3,
+          "spearman_rank": 0.8956228700785259
+        },
+        "2024": {
+          "mse": 0.0009452098959877739,
+          "top_1_accuracy": 1.0,
+          "top_3_recall": 0.6666666666666666,
+          "top_5_average_precision": 0.885,
+          "winner_predicted_rank": 1,
+          "spearman_rank": 0.9799971440887992
+        },
+        "2025": {
+          "mse": 0.00031357466965568735,
+          "top_1_accuracy": 0.0,
+          "top_3_recall": 1.0,
+          "top_5_average_precision": 0.8444444444444444,
+          "winner_predicted_rank": 2,
+          "spearman_rank": 0.9530648231261587
+        },
+        "2026": {
+          "mse": 0.00042216436215373305,
+          "top_1_accuracy": 0.0,
+          "top_3_recall": 1.0,
+          "top_5_average_precision": 0.925,
+          "winner_predicted_rank": 2,
+          "spearman_rank": 0.9665995366283389
+        }
+      },
+      "summary": {
+        "mse": 0.05953642280214871,
+        "top_1_accuracy": 0.5263157894736842,
+        "top_3_recall": 0.631578947368421,
+        "top_5_average_precision": 0.7225048623334106,
+        "average_winner_predicted_rank": 25.94736842105263
+      }
+    }
+  }
+}
